@@ -6,23 +6,29 @@ The website for my Imperial College London 2017 elections candidacy.
 
 Usage
 ---
- 
+
 Start the development server with this command:
- 
+
 ```
 npm start
 ```
 
 Setup
 ---
- 
- ```
- npm install
- ```
+
+```
+npm install
+```
 
 Compile
 ---
-  
-  ```
-  npm run compile
-  ```
+
+```
+npm run compile
+```
+
+Todo
+---
+
+ - [ ] Responsive
+ - [ ] Closing Timer
