@@ -9,7 +9,7 @@ class Social extends React.Component {
 
     let prefix = 'images/';
     let facebook = {
-      'link': 'http://facebook.com/groups/egnwdwebmaster',
+      'link': 'http://facebook.com/groups/egnwdweb',
       'path': prefix + 'facebook.svg'
     };
     let github = {

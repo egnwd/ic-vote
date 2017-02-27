@@ -1,5 +1,6 @@
 import React from 'react';
-import ReactGridLayout from 'react-grid-layout';
+import {Responsive, WidthProvider} from 'react-grid-layout';
+const ResponsiveReactGridLayout = WidthProvider(Responsive);
 
 /**
  * Grid of campaign elements
@@ -18,12 +19,15 @@ class Grid extends React.Component {
     );
   }
 
+  // isDraggable={false} isResizable={false}
   render() {
     return (
-      <ReactGridLayout className="layout" layout={this.props.layout}
-        cols={12} rowHeight={30} width={1200}>
+      <ResponsiveReactGridLayout className="layout" layouts={this.props.layouts}
+        rowHeight={30}
+        breakpoints={{lg: 1200, md: 481, sm: 480, xxs: 0}}
+        cols={{lg: 12, md: 12, sm: 3, xxs: 3}}>
         {this.props.items.map(this.create.bind(this))}
-      </ReactGridLayout>
+      </ResponsiveReactGridLayout>
     )
   }
 }

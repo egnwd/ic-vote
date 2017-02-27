@@ -21,6 +21,18 @@ var layout = [
   {i: 'tech', x: 6, y: 8, w: 4, h: 4, isResizable: false},
 ];
 
+var layout2 = [
+  {i: 'headerimage', x: 0, y: 0, w: 3, h: 5, static: true},
+  {i: 'votingmsg', x: 0, y: 5, w: 3, h: 3, static: true},
+  {i: 'banner', x: 0, y: 30, w: 3, h: 2, static: true},
+  {i: 'count', x: 0, y: 8, w: 3, h: 3, static: true},
+  {i: 'facebook', x: 0, y: 28, w: 1, h: 2, static: true},
+  {i: 'github', x: 1, y: 28, w: 1, h: 2, static: true},
+  {i: 'vote', x: 2, y: 28, w: 1, h: 2, static: true},
+  {i: 'manifesto', x: 0, y: 11, w: 3, h: 17, static: true},
+  {i: 'tech', x: 0, y: 32, w: 3, h: 6, static: true},
+];
+
 let items = [
   {i: 'headerimage', className: "", el: <Header/>},
   {i: 'votingmsg', className: "voting text", el: <Voting/>},
@@ -37,9 +49,11 @@ function onItemClick(e) {
   console.log("click");
 }
 
+let layouts = {lg: layout, md: layout, sm: layout2, xxs: layout2};
+
 document.addEventListener('DOMContentLoaded', function() {
   ReactDOM.render(
-    <Grid layout={layout} items={items} onItemClick={onItemClick}/>,
+    <Grid layouts={layouts} items={items} onItemClick={onItemClick}/>,
     document.getElementById('mount')
   );
 });
