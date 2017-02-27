@@ -29,7 +29,7 @@ class Manifesto extends React.Component {
         </p>
         <ul>
           <li> Make it easier for committee members to write articles and blog posts</li>
-          <li> Improve to <a href="http://hub.ichack.org">hub.ichack.org</a></li>
+          <li> Improve <a href="http://hub.ichack.org">hub.ichack.org</a></li>
           <li> Make the <a href="http://docsoc.co.uk">DocSoc website</a> more informative</li>
         </ul>
         <p>
