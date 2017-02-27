@@ -23,14 +23,14 @@ var layout = [
 
 var layout2 = [
   {i: 'headerimage', x: 0, y: 0, w: 3, h: 5, static: true},
-  {i: 'votingmsg', x: 0, y: 5, w: 3, h: 3, static: true},
-  {i: 'banner', x: 0, y: 30, w: 3, h: 2, static: true},
-  {i: 'count', x: 0, y: 8, w: 3, h: 3, static: true},
-  {i: 'facebook', x: 0, y: 28, w: 1, h: 2, static: true},
-  {i: 'github', x: 1, y: 28, w: 1, h: 2, static: true},
-  {i: 'vote', x: 2, y: 28, w: 1, h: 2, static: true},
-  {i: 'manifesto', x: 0, y: 11, w: 3, h: 17, static: true},
-  {i: 'tech', x: 0, y: 32, w: 3, h: 6, static: true},
+  {i: 'votingmsg', x: 0, y: 6, w: 3, h: 3, static: true},
+  {i: 'banner', x: 0, y: 29, w: 3, h: 2, static: true},
+  {i: 'count', x: 0, y: 9, w: 3, h: 3, static: true},
+  {i: 'facebook', x: 0, y: 27, w: 1, h: 2, static: true},
+  {i: 'github', x: 1, y: 27, w: 1, h: 2, static: true},
+  {i: 'vote', x: 2, y: 27, w: 1, h: 2, static: true},
+  {i: 'manifesto', x: 0, y: 12, w: 3, h: 15, static: true},
+  {i: 'tech', x: 0, y: 31, w: 3, h: 4, static: true},
 ];
 
 let items = [

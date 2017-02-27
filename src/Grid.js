@@ -24,7 +24,7 @@ class Grid extends React.Component {
     return (
       <ResponsiveReactGridLayout className="layout" layouts={this.props.layouts}
         rowHeight={30}
-        breakpoints={{lg: 1200, md: 481, sm: 480, xxs: 0}}
+        breakpoints={{lg: 1200, md: 661, sm: 660, xxs: 0}}
         cols={{lg: 12, md: 12, sm: 3, xxs: 3}}>
         {this.props.items.map(this.create.bind(this))}
       </ResponsiveReactGridLayout>

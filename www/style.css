@@ -22,6 +22,10 @@ a {
   color: #2E2E2E;
 }
 
+.react-grid-layout.layout {
+  max-width: 1200px;
+}
+
 a:link,
 a:visited { color: #2E2E2E; }
 a:hover   { color: #030303; }
@@ -70,4 +74,13 @@ a:active  {
   left: 0;
   right: 0;
   bottom: 0;
+}
+
+@media screen and (max-width: 480px) {
+    .laptop {
+        display: none;
+        opacity: 0;
+        position: absolute;
+        left: -9999px;
+    }
 }
