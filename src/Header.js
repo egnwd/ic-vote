@@ -9,6 +9,7 @@ class Header extends React.Component {
       <div>
         <img className={"header"} src={'images/header.svg'}
           alt={"Greenwood - 2017 - Webmaster"}/>
+        <div className="cover"></div>
       </div>
     )
   }

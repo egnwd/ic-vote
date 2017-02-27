@@ -9,7 +9,7 @@ class Social extends React.Component {
 
     let prefix = 'images/';
     let facebook = {
-      'link': 'http://facebook.com/egnwd',
+      'link': 'http://facebook.com/groups/egnwdwebmaster',
       'path': prefix + 'facebook.svg'
     };
     let github = {
@@ -29,13 +29,17 @@ class Social extends React.Component {
   }
 
   render() {
-    console.log(this.social);
     let key = this.props.id;
     let social = this.social.get(key);
     let link = social['link'];
     let path = social['path'];
     return (
-      <a href={link}><img src={path} alt={key}/></a>
+      <a href={link}>
+        <div className="social">
+          <img src={path} alt={key}/>
+          <div className="cover"></div>
+        </div>
+      </a>
     )
   }
 }

@@ -10,7 +10,7 @@ class Tech extends React.Component {
         <p>
           This website is built using React.js, babel and webpack.
           Everthing here was written in vim, you can find (and judge) my vim setup <a href="http://github.com/egnwd/dotfiles">here</a>.
-          Finally, just before you go vote, try dragging these boxes around!
+          <strong> Finally, just before you go #voteicu, try dragging these boxes around!</strong>
         </p>
       </div>
     )
